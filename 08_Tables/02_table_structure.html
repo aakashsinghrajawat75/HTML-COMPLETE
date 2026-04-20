@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Table Structure</title>
+    <style>table, th, td { border: 1px solid black; border-collapse: collapse; padding: 8px; }</style>
+</head>
+<body>
+    <h1>Semantic Table Sections</h1>
+    <p>Charv recommends splitting tables logically so browsers can parse them faster.</p>
+
+    <table>
+        <!-- The Header Wrapper -->
+        <thead>
+            <tr>
+                <th>Student</th>
+                <th>Course</th>
+                <th>Grade</th>
+            </tr>
+        </thead>
+        
+        <!-- The Main Body Wrapper -->
+        <tbody>
+            <tr>
+                <td>Khushi</td>
+                <td>HTML</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>Gagan</td>
+                <td>CSS</td>
+                <td>B+</td>
+            </tr>
+            <tr>
+                <td>Deepanshu</td>
+                <td>JavaScript</td>
+                <td>A-</td>
+            </tr>
+        </tbody>
+
+        <!-- The Footer Wrapper -->
+        <tfoot>
+            <tr>
+                <td>Total Students</td>
+                <td></td>
+                <td>3</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>

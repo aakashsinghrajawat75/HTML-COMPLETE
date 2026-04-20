@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- 1. The Content Security Policy -->
+    <!-- Deepanshu added this to prevent cross-site scripting attacks! -->
+    <!-- This tells the browser: Only load scripts/images from THIS exact server. -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src https://*; child-src 'none';">
+
+    <meta charset="UTF-8">
+    <title>Gagan's Official Profile</title>
+
+    <!-- 2. Open Graph Tags (For Facebook/LinkedIn previews) -->
+    <!-- When Charv sends this link in a chat, these meta tags generate the preview card! -->
+    <meta property="og:title" content="Gagan's Advanced Developer Profile">
+    <meta property="og:description" content="View the full resume and portfolio.">
+    <meta property="og:image" content="https://example.com/gagan_profile_pic.jpg">
+    <meta property="og:url" content="https://example.com/gagan">
+
+</head>
+
+<body>
+    <h1>Advanced Metadata at work!</h1>
+    <p>Everything interesting about this specific document is completely invisible to you right now. It's all hidden in
+        the <b>&lt;head&gt;</b> tags for security systems and social media scrapers to read.</p>
+</body>
+
+</html>

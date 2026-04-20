@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Video Element</title>
+</head>
+<body>
+    <h1>Embedding Videos</h1>
+
+    <p>Aakash (CGPA: 9.0) suggests always adding the <b>controls</b> attribute so the user can actually press play!</p>
+
+    <!-- The exact dimensions are set, and controls are rendered -->
+    <video width="400" height="240" controls>
+        <!-- The source tag tells the browser where the file is -->
+        <source src="dummy_video.mp4" type="video/mp4">
+        <!-- This text ONLY shows if the browser completely fails to load the tag (which is rare on modern browsers) -->
+        Your browser does not support the video tag.
+    </video>
+
+    <p><small>Video provided by Daulat.</small></p>
+
+</body>
+</html>

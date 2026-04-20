@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Block vs Inline</title>
+    <!-- Basic styling to highlight the actual space elements consume -->
+    <style>
+        .block-element { border: 2px solid red; background-color: mistyrose; margin-bottom: 10px; }
+        .inline-element { border: 2px solid blue; background-color: lightcyan; }
+    </style>
+</head>
+<body>
+    <h1>Display Behavior</h1>
+
+    <h2>Block-Level Elements</h2>
+    <p>Block elements always start a new line. Notice the red border stretching across the entire width of the page!</p>
+    
+    <p class="block-element">This entire paragraph is a block element.</p>
+    <h3 class="block-element">This heading is also a block element.</h3>
+
+    <h2>Inline Elements</h2>
+    <p>Inline elements sit next to each other on the same line. Notice the blue border tightly wrapping just the words!</p>
+
+    <!-- Anchors and bold tags are inline -->
+    <p>
+        Here is an <a href="#" class="inline-element">inline link</a>. 
+        And here is some <b class="inline-element">inline bold text</b>.
+    </p>
+
+    <p><small>Created by Kunal.</small></p>
+</body>
+</html>

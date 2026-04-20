@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Radio and Checkboxes</title>
+</head>
+<body>
+    <h1>Multiple Choice Inputs</h1>
+
+    <form action="#">
+        <h2>Radio Buttons (Pick Only One)</h2>
+        <p>Daulat asks: What is your favorite web language?</p>
+        <!-- Notice how they all share the exact same 'name' attribute? This groups them together! -->
+        <!-- The 'value' attribute is what actually gets sent to the server. -->
+        <input type="radio" id="html" name="fav_language" value="HTML" checked>
+        <label for="html">HTML</label><br>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="javascript">JavaScript</label><br><br>
+
+        <h2>Checkboxes (Pick Multiple)</h2>
+        <p>Charv asks: Which of the following conditions apply?</p>
+        <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+        <label for="subscribe">Subscribe to the newsletter</label><br>
+        <input type="checkbox" id="terms" name="terms" value="yes" required>
+        <label for="terms">I agree to the terms of service</label><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SVG and Canvas</title>
+</head>
+<body>
+    <h1>Advanced Graphics & API Hooks</h1>
+
+    <h2>Native SVG Graphics</h2>
+    <p>Aakash (CGPA: 9.0) drew this perfect circle using pure mathematics built directly into HTML.</p>
+    
+    <!-- Drawing a scalable vector graphic directly into the HTML -->
+    <svg width="100" height="100">
+        <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+    </svg>
+
+    <h2>The Native Drag API</h2>
+    <p>Try clicking and dragging the box below! HTML5 supports native dragging without a single line of JavaScript logic.</p>
+    
+    <!-- The draggable="true" attribute activates the HTML5 Drag-and-Drop API -->
+    <div draggable="true" style="width: 150px; height: 50px; background-color: lightblue; padding: 10px; border: 1px solid black; cursor: grab;">
+        Drag me, Kunal!
+    </div>
+
+    <h2>The Canvas Box</h2>
+    <p>Jay set up this blank canvas. Normally, you use JavaScript to draw actual video game frames onto this specific box!</p>
+
+    <canvas id="myGameCanvas" width="200" height="100" style="border:2px solid #000000;">
+        Your browser does not support the HTML canvas tag.
+    </canvas>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Select and Textarea</title>
+</head>
+<body>
+    <h1>Large Inputs and Dropdowns</h1>
+
+    <form action="#">
+        
+        <h2>The Select Dropdown</h2>
+        <label for="authors">Choose a favorite author:</label>
+        <select id="authors" name="favorite_author">
+            <!-- The 'value' is sent to server, the text between tags is what the user reads -->
+            <option value="aakash">Aakash (CGPA: 9.0)</option>
+            <option value="kunal">Kunal</option>
+            <option value="jay">Jay</option>
+            <option value="deepanshu">Deepanshu</option>
+        </select>
+        <br><br>
+
+        <h2>The Textarea Element</h2>
+        <label for="message">Leave a message for the team:</label><br>
+        <!-- Textarea uses closing tags, unlike the standard <input> -->
+        <textarea id="message" name="message" rows="5" cols="40">Hello everyone, this is an editable multi-line text box!</textarea>
+        <br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+</html>

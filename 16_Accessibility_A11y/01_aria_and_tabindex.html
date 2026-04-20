@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ARIA and Tabindex</title>
+    <style>
+        .custom-btn { background: #333; color: white; padding: 10px; display: inline-block; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h1>Making the Web Accessible</h1>
+    
+    <p>Khushi ensures all websites meet accessibility standards.</p>
+
+    <!-- ARIA roles -->
+    <h2>ARIA Roles</h2>
+    <p>If you build a custom button using a div instead of a standard HTML button tag, a blind user's screen reader won't know it's clickable. You MUST add a role to it.</p>
+    
+    <div class="custom-btn" role="button" aria-pressed="false">Submit Form</div>
+
+    <br>
+
+    <!-- Tabindex -->
+    <h2>Tab Navigation Order</h2>
+    <p>Press the 'Tab' key on your keyboard. See how it jumps between the links?</p>
+    
+    <!-- We can force the tab to jump to Jay first by giving him index 1 -->
+    <a href="#" tabindex="2">1. Daulat (Index 2)</a><br>
+    <a href="#" tabindex="1">2. Jay (Index 1)</a><br>
+    <a href="#" tabindex="3">3. Aakash (Index 3)</a>
+
+</body>
+</html>
