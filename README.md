@@ -1,11 +1,11 @@
-# 🌐 HTML5 — Complete Engineering Reference
+# HTML5 — Complete Engineering Reference
 
 > HTML is not just a markup language. It is the universal contract between the human who writes the code, the browser that interprets it, and the search engine that indexes it.  
 > This repository documents all 18 stages of that contract — from the very first `<!DOCTYPE html>` declaration all the way to native browser GPU rendering APIs.
 
 ---
 
-## 📁 Repository Architecture
+## Repository Architecture
 
 ```text
 HTML-complete/
@@ -46,7 +46,7 @@ This is where HTML stops being a "beginner" language and becomes a sophisticated
 
 ---
 
-## 📚 Module Reference
+## Module Reference
 
 ### 01 — HTML Basics
 *DOCTYPE declaration, browser parsing engine, metadata vs body, UTF-8 charset, SEO title tag*
@@ -187,7 +187,7 @@ This is where HTML stops being a "beginner" language and becomes a sophisticated
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 1. No compiler. No build system. No Node.js. HTML is interpreted natively by the browser.
 2. Double-click any `.html` file → your default browser opens it instantly.
@@ -196,7 +196,7 @@ This is where HTML stops being a "beginner" language and becomes a sophisticated
 
 ---
 
-## 🛠️ Requirements
+## Requirements
 
 | Requirement | Details |
 |------------|---------|
@@ -207,7 +207,7 @@ This is where HTML stops being a "beginner" language and becomes a sophisticated
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 > **Aakash**
 
