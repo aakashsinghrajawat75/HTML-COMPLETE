@@ -31,7 +31,7 @@ HTML-complete/
 
 ---
 
-## ⚡ Learning Path — What This Repository Actually Teaches
+## Learning Path — What This Repository Actually Teaches
 
 This guide is split into three distinct engineering layers. Don't skip ahead — each layer builds the mental model needed for the next one.
 
